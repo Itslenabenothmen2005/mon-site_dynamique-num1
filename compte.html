@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<head><title></title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="mesStyles.css">
+<script src="controles.js"></script>
+</head>
+<body>
+    <form method="post" action="ajout.php" onsubmit="return verif1()">
+        <fieldset>
+            <legend>ouvrir un nouveau compte</legend>
+            <label>type de compte:
+                <input type="radio" id="ep" name="ty" value="E">Eparagne
+                <input type="radio" id="an23" name="ty" value="C">Courant</label></br>
+                <label>numero de compte<input type=" text" id="nc" name="nc"></label></br>
+                <label>cin client</label><input type=" text" id="cc" name="cc"></label></br>
+                <label>solde<input type=" text" id="s" name="s"></label></br>
+               <label> <input type="submit" value="valider"><input type="reset" value="annuler"></label></br>
+        
+        </fieldset>
+    </form>
+</body>
+</html>
